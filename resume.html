@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Kyungmin Kim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="entry-overlay" class="entry-overlay"></div>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">KK</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="resume.html" class="active">Resume</a>
+            </div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <span id="moon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                </span>
+                <span id="sun-icon" style="display: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+                </span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="fade-in">
+            <h1 class="section-title">Resume</h1>
+            <p style="text-align: center; margin-bottom: 2rem; color: var(--text-muted);">Please find my professional experience and academic background below.</p>
+            
+            <div class="resume-viewer fade-in">
+                <div class="resume-placeholder">
+                    <p>Resume viewer will appear here once [MY_RESUME_FILENAME] is uploaded to the assets folder.</p>
+                </div>
+                <div class="cta-group">
+                    <a href="assets/MY_RESUME_FILENAME" download class="btn btn-primary">Download PDF</a>
+                    <a href="assets/MY_RESUME_FILENAME" target="_blank" class="btn btn-outline">Open in New Tab</a>
+                </div>
+            </div>
+
+            <div style="margin-top: 4rem;">
+                <h3>Education Highlights</h3>
+                <div class="info-list" style="background: var(--bg-main); border: 1px solid var(--border);">
+                    <div class="info-item">
+                        <span class="info-label">Degree</span>
+                        <span class="info-value">B.S. Computer Science (AI Track)</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Institution</span>
+                        <span class="info-value">Purdue University</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Specialization</span>
+                        <span class="info-value">Artificial Intelligence / Computer Vision</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Kyungmin Kim. AI Student @ Purdue University.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

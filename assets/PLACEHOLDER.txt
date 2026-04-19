@@ -1,0 +1,4 @@
+This directory is for your profile photo and resume PDF.
+Place your files here and update the links in your HTML files.
+- Profile photo recommendation: 400x400px square.
+- Resume recommendation: PDF format.
